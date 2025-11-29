@@ -68,7 +68,7 @@ jobs:
       - name: Install package
         run: |
           pip install ./package/src/dist/*.whl
-          pip list | grep lexbwmn-awesome-calculator 
+          pip list | grep lexbwmn-awesomecalculator 
         
 
 
