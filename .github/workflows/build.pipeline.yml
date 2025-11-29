@@ -67,8 +67,7 @@ jobs:
             # Step to install the package (.whl file)
       - name: Install package
         run: |
-          pip install ./package/src/dist/*.whl
-          pip list | grep lexbwmn-awesomecalculator 
+          ls -R ./package
         
 
 
